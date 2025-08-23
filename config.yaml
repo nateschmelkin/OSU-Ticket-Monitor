@@ -1,0 +1,6 @@
+event_url: "https://www.maizetix.com/games/171"
+check_every_seconds: 300
+target_price: 275.00
+notify_on_new_low: true
+timezone: "America/Detroit"
+user_agent: "MaizeTixMonitor/1.0 (+GitHub Actions)"
