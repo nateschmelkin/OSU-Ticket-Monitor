@@ -27,6 +27,7 @@ jobs:
       - name: Run monitor
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          RUN_ONCE: 1
         run: python monitor.py
 
       - name: Save history (commit CSV if changed)
